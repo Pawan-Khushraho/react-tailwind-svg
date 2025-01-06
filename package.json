@@ -1,0 +1,44 @@
+{
+  "name": "react-tailwind-svg",
+  "version": "1.0.15",
+  "description": "A React component for dynamically fetching and rendering inline SVGs with support for modifications and error handling.",
+  "main": "dist/InlineSvgLoader.js", 
+  "module": "dist/InlineSvgLoader.esm.js",
+"exports": {
+    ".": {
+      "require": "./dist/InlineSvgLoader.js",   
+      "import": "./dist/InlineSvgLoader.js"     
+    }
+  },
+"types": "dist/InlineSvgLoader.d.ts", 
+"files": ["dist"],
+ 
+  
+  "scripts": {
+    "build": "tsc"  
+  }
+  
+  
+,
+  "keywords": [
+    "react",
+    "svg",
+    "inline-svg",
+    "loader",
+    "component",
+    "currentColor",
+    "svg-loader"
+  ],
+  "author": "Pawan",
+  "license": "ISC",
+ "type": "commonjs",
+  "dependencies": {
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.7.2"
+  }
+}

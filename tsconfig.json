@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",        // Output CommonJS format
+    "target": "ES6",             // Target ES6 syntax
+    "jsx": "react-jsx",          // Use JSX for React
+    "moduleResolution": "node",  // Node-style module resolution
+    "esModuleInterop": true,     // Enable interoperability with ES modules
+    "allowSyntheticDefaultImports": true,  // Allow default imports
+    "declaration": true,         // Generate TypeScript declaration files
+    "declarationDir": "dist",    // Output declarations to dist folder
+    "outDir": "dist",            // Output compiled JavaScript files to dist folder
+    "rootDir": "src"             // Source directory for TypeScript files
+  },
+  "include": ["src/**/*"],       // Include all files in 'src'
+  "exclude": ["node_modules"]    // Exclude node_modules folder
+}
