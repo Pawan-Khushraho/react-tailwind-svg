@@ -2,6 +2,16 @@
 
 A lightweight React component for dynamically fetching, modifying, and rendering inline SVGs with class support and error handling.
 
+## Contributing
+
+We welcome contributions to the `react-tailwind-svg` project! If you encounter any issues or would like to contribute, feel free to open an issue or a pull request on our GitHub repository.
+
+[GitHub Repository](https://github.com/Pawan-Khushraho/react-tailwind-svg)
+
+## Issues
+
+If you face any issues or have suggestions for improvement, please [raise an issue](https://github.com/Pawan-Khushraho/react-tailwind-svg/issues) on GitHub.
+
 ## Features
 
 - Fetch SVGs from a remote URL dynamically.
